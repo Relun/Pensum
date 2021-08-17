@@ -28,6 +28,10 @@
     font-weight: 500;
 }
 
+.oswald-text{
+    font-family: 'Oswald', sans-serif;
+
+}
 .osw-text {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
@@ -119,6 +123,26 @@
     object-fit: none;
 }
 
+/* sticky section */
+
+.coral-color{
+    color:#00A7E1;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1;
+
+}
+
+.orange-color{
+    color: #F15A24;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1;
+ 
+}
+.number{
+    font-size: 3.5rem;
+}
 
 /* carusel celeste nosotros */
 
@@ -215,6 +239,7 @@
 
 .text-size{
     font-size: .9rem;
+
 
 }
 @media (min-width: 992px) {
