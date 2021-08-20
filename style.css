@@ -147,115 +147,23 @@
     font-size: 3.5rem;
 }
 
-/* carusel celeste nosotros */
 
-.blue-background{
- background-color:#00A7E1;
- background-size: cover !important;
-}
-
-.text-white{
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: .6rem;
-    padding-left: 25px;
-}
-.title-white{
-    color: #FFFFFF;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
-    font-size: 3rem;
-}
-
-.text-vision{
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-
-}
-.text-div{
-    width: 100%;
-
-}
-.div-icono{
-    width: 7rem;
-    height: 7rem;
-
-
-}
-
-.img-icono{
-    max-width: 100%;
-    /* object-fit: cover; */
-    /* object-fit: contain; */
-}
-.carousel .item .blue-background {
-    background-color:#00A7E1;
-}
-
-#blue-carousel .carousel-caption {
-    /* top: 3rem; */
-    /* bottom: 1.25rem; */
-    /* left: 10%;
-    z-index: 20;
-    color: orange;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1.2rem;
-    text-align: start;
-    position: absolute; */
-    right: 15%;
-}
-
-/* nuestros socios */
-
-.partner-size{
-    width: 10rem;
-    margin: 2.5rem;
-}
-/* .img-partner{
-    max-width: 100%;
-} */
-.card-tendencias{
-    border-radius: 2rem;
-    border-color: transparent;
-    
-}
-.btn-tendencias {
-    color: #FFFFFF;
-    background-color: #F15A24;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: .5rem;
-    border-radius: 3.5rem;
-}
-
-/* footer */
-.footer-blue{
-    background-color:#002B48;
-    height: auto;
-    color: #FFFFFF;
-    ;
-}
-
-.text-size{
-    font-size: .9rem;
-
-
-}
 /* card-flip */
 
 .card-size {
     width: 17.5rem;
     height: 9rem;
+    align-items: center;
 }
 
 .card-text-content{
     font-size: .6rem;
 }
 
+.align-vertical{
+align-items: center;
+
+}
 /* efecto flip */
 
 .flip{
@@ -310,6 +218,143 @@
 	transform: rotateY(180deg);
 }
 
+/* carusel celeste nosotros */
+
+.blue-background{
+ background-color:#00A7E1;
+ background-size: cover !important;
+}
+
+.text-white{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: .6rem;
+    padding-left: 25px;
+}
+.title-white{
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.text-vision{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+.text-div{
+    width: 100%;
+
+}
+.div-icono{
+    width: 7rem;
+    height: 7rem;
+
+
+}
+
+.icono{
+    max-width: 100%;
+    /* object-fit: cover; */
+    /* object-fit: contain; */
+}
+.carousel .item .blue-background {
+    background-color:#00A7E1;
+}
+
+#blue-carousel .carousel-caption {
+    /* top: 3rem; */
+    /* bottom: 1.25rem; */
+    /* left: 10%;
+    z-index: 20;
+    color: orange;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: start;
+    position: absolute; */
+    right: 15%;
+}
+
+/* nuestros socios */
+
+.partner-size{
+    width: 20%;
+    /* padding: 3rem; */
+    object-fit: contain;
+    /* margin: 2.5rem;
+} */
+}
+/* .img-partner{
+    max-width: 100%;
+} */
+
+/* tendencias */
+.card-tendencias{
+    border-radius: 2rem;
+    border-color: transparent;
+    
+}
+.btn-tendencias {
+    color: #FFFFFF;
+    background-color: #F15A24;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: .5rem;
+    border-radius: 3.5rem;
+}
+
+/* footer */
+.footer-blue{
+    background-color:#002B48;
+    height: auto;
+    color: #FFFFFF;
+    ;
+}
+
+.text-size{
+    font-size: .9rem;
+
+
+}
+.map{
+    width: 20rem;
+    height: 10rem;
+}
+.maps{
+    width: 100%;
+    height: 100%;
+}
+/* fixed */
+.fixed-element{
+    position: sticky;
+    z-index: 2;
+    /* top: 30%;
+    bottom: 50%; */
+    left: 82%;
+    /* top: 30%;
+    right: 0; */
+    bottom: 0;
+    margin-top: -14rem;
+    padding-bottom: 3rem;
+}
+
+.div-fixed{
+    margin-top: -14rem;
+    padding-bottom: 3rem;
+}
+ /* antes */
+/* .fixed-element:before{
+
+}*/
+/* despues */
+/*.fixed-element:after{
+    
+} */
 
 /* media queries */
 @media (min-width: 992px) {
