@@ -283,8 +283,8 @@ align-items: center;
 /* nuestros socios */
 
 .partner-size{
-    width: 20%;
-    /* padding: 3rem; */
+    width: 14rem;
+    padding: 1rem;
     object-fit: contain;
     /* margin: 2.5rem;
 } */
@@ -297,6 +297,8 @@ align-items: center;
 .card-tendencias{
     border-radius: 2rem;
     border-color: transparent;
+    width: 18rem;
+    margin: .5rem;
     
 }
 .btn-tendencias {
@@ -318,10 +320,19 @@ align-items: center;
 
 .text-size{
     font-size: .9rem;
+    /* padding-left: 2rem; */
+}
 
+.contact-size{
+    font-size: .9rem;
+    padding: 0 1rem;
+    border-right: solid .2rem;
+    border-left: solid .2rem;
 
 }
+
 .map{
+    padding-right:3rem ;
     width: 20rem;
     height: 10rem;
 }
@@ -347,6 +358,9 @@ align-items: center;
     margin-top: -14rem;
     padding-bottom: 3rem;
 }
+.icon-size{
+    width: 5rem;
+}
  /* antes */
 /* .fixed-element:before{
 
@@ -355,6 +369,15 @@ align-items: center;
 /*.fixed-element:after{
     
 } */
+
+
+/* slideshow */
+.slideshow{
+    background-color: cornflowerblue;
+}
+.slideshow-item{
+    background-color: brown;
+}
 
 /* media queries */
 @media (min-width: 992px) {
@@ -365,3 +388,29 @@ align-items: center;
         margin-right: auto;
     }
 }
+/* @media (min-width: 990px) {
+    .number{
+        font-size: 3.5rem;
+    }
+} */
+/* @media (min-width: 660px) and (max-width: 767px) { 
+    .coral-color{
+        color:#00A7E1;
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 1;
+    
+    }
+    
+    .orange-color{
+        color: #F15A24;
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 1;
+     
+    }
+    .number{
+        font-size: 3.5rem;
+    }
+
+ } */
