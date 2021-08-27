@@ -17,7 +17,11 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
+.mont-700{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 
+}
 .oswald-text{
     font-family: 'Oswald', sans-serif;
 
@@ -63,7 +67,7 @@
 .title-carousel {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #002B48;
 }
 
@@ -115,14 +119,14 @@
     color: #002B48;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: start;
     position: absolute;
     right: 30%;
 }
 
 .carousel-height {
-    height: 376px;
+    height: 24rem;
     object-fit: none;
 }
 
@@ -218,6 +222,84 @@ align-items: center;
 	transform: rotateY(180deg);
 }
 
+/* carrusel casos de éxito */
+
+.vermas{
+    text-decoration: none;
+}
+.mayusculas{
+    text-transform: uppercase;
+}
+
+.card1{
+    width: 20%;
+    height: 10rem;
+    background-image: url(img/pexels-kaboompics-com-6224\ 1.png);
+    background-size: cover !important;
+    
+}
+.card2{
+    width: 10rem;
+    height: 10rem;
+    background-image: url(img/cruz-blanca\ 1.png);
+    background-size: cover !important;
+    
+}
+.card3{
+    width: 10rem;
+    height: 10rem;
+    background-image: url(img/shutterstock_10616755\ 1.png);
+    background-size: cover !important;
+    
+
+}
+.card4{
+    width: 10rem;
+    height: 10rem;
+    background-image: url(img/pexels-nav-photography-5458354\ 1.png);
+    background-size: cover !important;
+    
+}
+.multiple-items img{
+    margin:auto;
+    padding: 4rem;
+}
+/* .card-img{
+    background-size: cover !important;
+
+} */
+.slick-prev{
+    color:transparent;
+}
+.slick-arrow{
+    color:transparent;
+
+}
+
+button {
+    appearance: auto;
+    /* -webkit-writing-mode: horizontal-tb !important; */
+    text-rendering: auto;
+    color: transparent;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: transparent;
+    border-image: initial;
+}
 /* carusel celeste nosotros */
 
 .blue-background{
@@ -229,14 +311,15 @@ align-items: center;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: .6rem;
+    font-size: .8rem;
     padding-left: 25px;
 }
 .title-white{
     color: #FFFFFF;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.2rem;
+    margin-top: -3rem;
 }
 
 .text-vision{
@@ -244,9 +327,11 @@ align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1rem;
+    padding-left: 1rem;
 
 }
 .text-div{
+    padding-left: 3rem;
     width: 100%;
 
 }
@@ -256,12 +341,13 @@ align-items: center;
 
 
 }
-
-.icono{
-    max-width: 100%;
-    /* object-fit: cover; */
-    /* object-fit: contain; */
+.img-icono{
+    width: 8rem;
 }
+
+/* .icono{
+    max-width: 100%;
+} */
 .carousel .item .blue-background {
     background-color:#00A7E1;
 }
@@ -269,8 +355,8 @@ align-items: center;
 #blue-carousel .carousel-caption {
     /* top: 3rem; */
     /* bottom: 1.25rem; */
-    /* left: 10%;
-    z-index: 20;
+    left: 12%;
+    /* z-index: 20;
     color: orange;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -278,6 +364,10 @@ align-items: center;
     text-align: start;
     position: absolute; */
     right: 15%;
+}
+#blue-carousel .carousel-height {
+    height: 30rem;
+    object-fit: none;
 }
 
 /* nuestros socios */
@@ -326,8 +416,14 @@ align-items: center;
 .contact-size{
     font-size: .9rem;
     padding: 0 1rem;
+
+
+}
+
+.contact-bold{
     border-right: solid .2rem;
     border-left: solid .2rem;
+    /* display:none; */
 
 }
 
@@ -388,29 +484,54 @@ align-items: center;
         margin-right: auto;
     }
 }
-/* @media (min-width: 990px) {
-    .number{
-        font-size: 3.5rem;
-    }
-} */
-/* @media (min-width: 660px) and (max-width: 767px) { 
+@media (min-width: 847px) {
     .coral-color{
-        color:#00A7E1;
-        font-weight: 500;
-        font-size: 2.5rem;
-        line-height: 1;
-    
-    }
-    
-    .orange-color{
-        color: #F15A24;
-        font-weight: 500;
-        font-size: 2.5rem;
-        line-height: 1;
-     
-    }
-    .number{
-        font-size: 3.5rem;
-    }
 
- } */
+        /* font-size: 2.5rem;
+        line-height: 1; */
+        padding: 0 7rem;
+        
+    
+    }
+}
+@media (min-width: 565px) and (max-width: 767px) { 
+    .coral-color{
+
+        /* font-size: 2.5rem;
+        line-height: 1; */
+        padding: 0 4rem;
+        
+    
+    }
+    
+     /* .orange-color{
+        font-size: 2.5rem;
+        line-height: 1; 
+        padding: 0 4rem; 
+     
+    }  */
+    /* .number{
+        font-size: 3.5rem;
+    } */
+
+ }
+
+ @media (max-width: 991px) {
+    .text-size{
+        /* font-size: .9rem; */
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .contact-bold{
+        /* border-right: solid .2rem;
+        border-left: solid .2rem; */
+        border:transparent
+        /* display:none; */
+    
+    }
+    .contact-size {
+        font-size: .9rem;
+        padding-bottom: 1rem;
+        padding-left: 0;
+    }
+}
