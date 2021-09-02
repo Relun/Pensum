@@ -156,12 +156,13 @@
 
 .card-size {
     width: 17.5rem;
-    height: 9rem;
+    height: 12rem;
     align-items: center;
 }
 
 .card-text-content{
-    font-size: .6rem;
+    font-size: .7rem;
+    font-weight: bold;
 }
 
 .align-vertical{
@@ -473,6 +474,12 @@ button {
 }
 .slideshow-item{
     background-color: brown;
+}
+
+/* articulos */
+#articulos{
+    height: 50rem;
+    margin-left: 5rem;
 }
 
 /* media queries */
